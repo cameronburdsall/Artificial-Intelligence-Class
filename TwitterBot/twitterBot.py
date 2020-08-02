@@ -9,10 +9,11 @@ def uploadTweet (file, tweet):
     #tweet = text to be posted
     
     #set keys and tokens
-    consumerKey = 'Y5TmLr4zZ2jpPnlsSHSP0MXZi'
-    consumerSecret = 'YtYUZHE6R0H8HjhjJIKT5voBCjHQck1M3zPYFvN0edPeqUeAcO'
-    accessToken = '1266481169161269248-H2dAjabIlgtHYeWIGAlltz3L2QpcTM'
-    accessTokenSecret = 'M9nC4IGIp2VAyw16mrKPIgJKWvSD9xKBulGV56fuGHty0'
+    #removed keys for obvious reasons
+    consumerKey = ''
+    consumerSecret = ''
+    accessToken = ''
+    accessTokenSecret = ''
 
     #set authorization and access token
     auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
